@@ -1,0 +1,31 @@
+questao,resposta,contagem
+Atuacao principal,Tecnico autonomo,4
+Atuacao principal,Docente ou instrutor,3
+Tempo de atuacao,Mais de 10 anos,5
+Tempo de atuacao,De 2 a 5 anos,2
+Falhas ja encontradas (multipla),Fuga de isolacao para a carcaca,6
+Falhas ja encontradas (multipla),Travamento mecanico,6
+Falhas ja encontradas (multipla),Enrolamento aberto,5
+Falhas ja encontradas (multipla),Curto entre espiras,4
+Falhas ja encontradas (multipla),Desgaste interno ou falta de oleo,4
+Falha mais frequente,Travamento mecanico,3
+Falha mais frequente,Curto entre espiras,2
+Falha mais frequente,Enrolamento aberto,1
+Falha mais frequente,Desgaste interno ou falta de oleo,1
+Onde costuma estar o defeito,"Nos dois, com frequencia parecida",4
+Onde costuma estar o defeito,Principalmente na placa inversora,3
+Ferramentas (multipla),Multimetro,7
+Ferramentas (multipla),Codigo de erro da placa,7
+Ferramentas (multipla),Alicate amperimetro,5
+Ferramentas (multipla),Megometro,4
+Ferramentas (multipla),Troca da peca por outra boa,3
+Ferramentas (multipla),Jiga com LEDs,2
+E dificil distinguir placa x compressor,Concorda (4 ou 5),5
+E dificil distinguir placa x compressor,Neutro (3),2
+Ja danificou placa ao energizar compressor com defeito,Sim,3
+Ja danificou placa ao energizar compressor com defeito,Nunca,4
+Valor tipico da placa inversora,R$ 1.000 a R$ 2.000,3
+Valor tipico da placa inversora,Acima de R$ 2.000,4
+Ja passou ou presenciou risco eletrico no teste,Sim,6
+Ja passou ou presenciou risco eletrico no teste,Nao,1
+Importancia dos 6 recursos propostos,Muito importante (todos os recursos),7

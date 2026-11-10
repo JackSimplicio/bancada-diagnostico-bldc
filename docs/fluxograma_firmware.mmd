@@ -1,0 +1,30 @@
+%%{init: {'theme':'base','flowchart':{'nodeSpacing':18,'rankSpacing':22},'themeVariables':{'fontFamily':'Times New Roman','fontSize':'14px','primaryColor':'#ffffff','primaryBorderColor':'#000000','lineColor':'#000000','primaryTextColor':'#000000','clusterBkg':'#f7f7f7','clusterBorder':'#555555'}}}%%
+flowchart LR
+  subgraph SA [Configuração A – diagnóstico estático]
+    direction TB
+    A([Início]) --> B[Inicializa ADS1115, INA226, OLED e Wi-Fi<br/>relés em repouso, MOSFET desligado]
+    B --> D[Seleciona o par pelos relés<br/>lê o offset sem corrente]
+    D --> E[Liga o MOSFET, aguarda 60 ms<br/>lê V_par e V_ref, 32 amostras]
+    E --> F[R_par = R_ref × V_par ÷ V_ref]
+    F --> F2{Três pares<br/>medidos?}
+    F2 -- Não --> D
+    F2 -- Sim --> G{Leituras válidas e<br/>desequilíbrio ≤ 5 %?}
+    G -- Não --> R[REPROVADO]
+    G -- Sim --> J[APROVADO]
+  end
+  subgraph SB [Configuração B – ensaio sob carga]
+    direction TB
+    L[3 s em vazio:<br/>linha de base] --> M[Leitura a 10 Hz<br/>carga progressiva no disco]
+    M --> N{I > 2 × base?}
+    N -- Sim --> O[ALERTA]
+    N -- Não --> P{I ≥ 4 A?}
+    O --> P
+    P -- Sim --> Q[Aviso de teto]
+    P -- Não --> S{I < 0,3 × base<br/>até 2 s após alerta?}
+    Q --> S
+    S -- Sim --> T[TRAVADO<br/>liberação pelo botão físico]
+    S -- Não --> U{Encerrado?}
+    U -- Não --> M
+    U -- Sim --> V([Fim: registro em CSV])
+  end
+  J --> L

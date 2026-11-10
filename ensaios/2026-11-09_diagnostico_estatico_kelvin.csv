@@ -1,0 +1,3 @@
+data,condicao,r_uv_ohm,r_vw_ohm,r_wu_ohm,media_ohm,desequilibrio_pct,limite_configurado_pct,resultado,observacao
+2026-11-09,motor sadio,0.34094,0.34361,0.34159,0.34205,0.78,6.0,APROVADO,medicao a 4 fios (Kelvin); outras execucoes semelhantes nao registradas
+2026-11-09,curto simulado U-V,0.04594,0.27846,0.27927,0.20122,115.95,6.0,REPROVADO,jumper de fio AWG 22/24 entre os terminais U e V

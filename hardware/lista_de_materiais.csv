@@ -1,0 +1,16 @@
+item,qtd,descricao,custo_brl,origem_do_valor
+1,1,Driver BLDC Kalatec KTC-BLD120-J,373.87,"nota fiscal (06/10/2026), com IPI"
+2,1,Motor BLDC Kalatec KTC42BLS04-J,394.43,"nota fiscal (06/10/2026), com IPI"
+3,1,Placa ESP32 DevKit 30 pinos,80.07,media de lojas on-line (08/11/2026)
+4,1,Modulo INA226 com shunt R100 (I2C),49.23,media de lojas on-line (08/11/2026)
+5,1,Freio de bicicleta a disco mecanico com disco,58.05,media de lojas on-line (08/11/2026)
+6,1,"Visor OLED 1,3"" SH1106 (I2C)",37.34,media de lojas on-line (08/11/2026)
+7,2,"Resistor de fio 0,02 ohm 5% (shunt externo)",32.30,media de lojas on-line (08/11/2026)
+8,1,Modulo 4 reles 5 V com optoacoplador (SRD-05VDC-SL-C),25.36,media de lojas on-line (08/11/2026)
+9,1,Modulo ADS1115 16 bits (I2C),23.70,media de lojas on-line (08/11/2026)
+10,-,"Resistores 47 ohm, 1 ohm, 100 ohm, 100 kohm, 330 ohm; LED; botao; fio AWG 18 (2 m); bornes (4)",21.05,media de lojas on-line (08/11/2026)
+11,1,Protoboard 830 pontos,14.92,media de lojas on-line (08/11/2026)
+12,1,Jumpers (kit com 65),14.67,media de lojas on-line (08/11/2026)
+13,1,MOSFET canal N nivel logico IRLZ44N,8.03,media de lojas on-line (08/11/2026)
+,,TOTAL,1133.02,
+,,Fonte 24 V CC,-,equipamento do laboratorio da faculdade (nao incluida no custo)

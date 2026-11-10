@@ -1,0 +1,5 @@
+etapa,montagem,r_uv_ohm,r_vw_ohm,r_wu_ohm,media_ohm,desequilibrio_pct,resultado
+1,"2 fios, sem reles, troca manual dos pares",0.3672,0.3682,0.4128,0.3827,11.9,REPROVADO
+2,"2 fios, com reles, fios AWG 24",0.4058,0.5840,0.7012,0.5637,52.4,REPROVADO
+3,"2 fios, com reles, AWG 18 no comum dos reles",0.4048,0.4077,0.4647,0.4257,14.1,REPROVADO
+4,4 fios (Kelvin),0.34094,0.34361,0.34159,0.34205,0.78,APROVADO
