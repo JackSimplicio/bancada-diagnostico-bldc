@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Se você usar este material, cite-o conforme abaixo."
+title: "Bancada de testes para diagnóstico elétrico e acionamento de compressores BLDC inverter"
+type: software
+authors:
+  - family-names: "Monte"
+    given-names: "Antônio Jack S."
+  - family-names: "Gonçalves"
+    given-names: "Giovanna A."
+  - family-names: "Cerqueira"
+    given-names: "Jackson G."
+  - family-names: "Amaral"
+    given-names: "José de Jesus"
+  - family-names: "Lima"
+    given-names: "Júlia R."
+version: "v1.0-metodologia"
+date-released: "2026-11-10"
+repository-code: "https://github.com/JackSimplicio/bancada-diagnostico-bldc"
+abstract: "Projeto Final de Curso (PFC) de Engenharia de Controle e Automação, Faculdade Engenheiro Salvador Arena. Bancada que verifica a integridade elétrica dos enrolamentos de motores BLDC com o motor parado (medição a quatro fios) e só então libera o acionamento sob carga, monitorando a corrente."
+keywords:
+  - BLDC
+  - compressor inverter
+  - HVAC
+  - diagnóstico de falhas
+  - ESP32
