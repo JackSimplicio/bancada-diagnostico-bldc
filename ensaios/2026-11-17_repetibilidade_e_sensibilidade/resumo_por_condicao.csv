@@ -1,0 +1,7 @@
+condicao,composicao,r_inserida_nominal_ohm,execucoes,validas,uv_media_ohm,uv_dp,vw_media_ohm,vw_dp,wu_media_ohm,wu_dp,r_media_ohm,deseq_media_pct,deseq_dp_pct,deseq_max_pct,reprovados_5pct,acrescimo_medido_fase_w_ohm
+motor sadio,-,0.00000,21,18,0.3148,0.0053,0.3157,0.0053,0.3154,0.0049,0.3153,2.09,0.93,3.16,0,-
+resistor em serie na fase W,"1 x 0,1 ohm",0.10000,7,7,0.3528,0.0021,0.4648,0.0049,0.4633,0.0030,0.4270,26.38,1.18,27.46,7,0.1112
+resistor em serie na fase W,"0,1 // 0,2 ohm",0.06667,9,9,0.3475,0.0043,0.4204,0.0056,0.4204,0.0054,0.3961,18.98,1.05,20.10,9,0.0729
+resistor em serie na fase W,"3 x 0,1 // 0,2 ohm",0.02857,8,8,0.3471,0.0036,0.3950,0.0042,0.3966,0.0026,0.3796,13.55,0.91,14.96,8,0.0487
+resistor em serie na fase W,"6 x 0,1 // 0,2 ohm",0.01538,9,9,0.3492,0.0011,0.3816,0.0034,0.3820,0.0040,0.3709,9.35,0.51,10.29,9,0.0326
+resistor em serie na fase W,"10 x 0,1 // 0,2 ohm",0.00952,10,10,0.3597,0.0017,0.3793,0.0017,0.3799,0.0025,0.3730,5.63,0.82,6.59,6,0.0199

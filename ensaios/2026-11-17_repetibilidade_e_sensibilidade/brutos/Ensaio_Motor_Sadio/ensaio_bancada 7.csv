@@ -1,0 +1,8 @@
+# Diagnostico estatico
+# par;R_medida_ohm;R20_ohm;temp_C
+# U-V;0.31661;0.31661;null
+# V-W;0.31696;0.31696;null
+# W-U;0.32033;0.32033;null
+# media20_ohm;0.31796;desequilibrio_pct;1.172
+# linha_base_A;null;pico_A;0.0000
+t_ms;corrente_A;tensao_V;alerta;teto;corte
