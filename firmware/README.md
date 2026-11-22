@@ -1,6 +1,6 @@
 # Firmware – ESP32
 
-- **IDE:** Arduino IDE 2.3.1 · **Placa:** ESP32 Dev Module (pacote "esp32" da Espressif; versão a registrar)
+- **IDE:** Arduino IDE 2.3.1 · **Placa:** ESP32 Dev Module (pacote "esp32" da Espressif, versão 3.3.12)
 - **Bibliotecas:** instaladas pelo Gerenciador de Bibliotecas da Arduino IDE, nas versões usadas nos ensaios da prova de conceito:
 
 | Biblioteca | Autor | Versão |
