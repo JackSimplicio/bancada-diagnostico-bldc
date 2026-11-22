@@ -23,4 +23,4 @@ Endereços I²C: ADS1115 `0x48` (ganho ±0,256 V) · INA226 `0x40` · OLED SH110
 3. Configuração A: **Medir os 3 pares** → APROVADO libera o ensaio sob carga.
 4. Configuração B: **Iniciar ensaio sob carga**; dados exportáveis em CSV.
 
-Os mesmos comandos estão disponíveis no Monitor Serial (115200 baud). Procedimento completo em `../docs/procedimento_da_bancada_v2.pdf`.
+Os mesmos comandos estão disponíveis no Monitor Serial (115200 baud). Procedimento completo em `../docs/procedimento_da_bancada_v3.pdf`.
