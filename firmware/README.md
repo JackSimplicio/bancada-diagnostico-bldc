@@ -9,7 +9,6 @@
 | INA226 | Rob Tillaart | 0.6.6 |
 | Adafruit SH110X | Adafruit | 2.1.15 |
 | Adafruit GFX Library | Adafruit | 1.13.0 |
-| Adafruit BusIO | Adafruit | 1.17.4 (dependência das bibliotecas Adafruit) |
 
 - **Antes de gravar:** troque `AP_SENHA` (linha 64) por uma senha própria com no mínimo 8 caracteres.
 
