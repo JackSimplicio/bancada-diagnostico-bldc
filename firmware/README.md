@@ -1,7 +1,16 @@
 # Firmware – ESP32
 
-- **IDE:** Arduino IDE 2.x · **Placa:** ESP32 Dev Module (pacote "esp32" da Espressif)
-- **Bibliotecas:** Adafruit ADS1X15 · INA226 (Rob Tillaart) · Adafruit GFX · Adafruit SH110X
+- **IDE:** Arduino IDE 2.3.1 · **Placa:** ESP32 Dev Module (pacote "esp32" da Espressif; versão a registrar)
+- **Bibliotecas:** instaladas pelo Gerenciador de Bibliotecas da Arduino IDE, nas versões usadas nos ensaios da prova de conceito:
+
+| Biblioteca | Autor | Versão |
+|---|---|---|
+| Adafruit ADS1X15 | Adafruit | 2.6.2 |
+| INA226 | Rob Tillaart | 0.6.6 |
+| Adafruit SH110X | Adafruit | 2.1.15 |
+| Adafruit GFX Library | Adafruit | 1.13.0 |
+| Adafruit BusIO | Adafruit | 1.17.4 (dependência das bibliotecas Adafruit) |
+
 - **Antes de gravar:** troque `AP_SENHA` (linha 64) por uma senha própria com no mínimo 8 caracteres.
 
 ## Pinos
