@@ -1,31 +1,127 @@
-questao,resposta,contagem
-Atuacao principal,Tecnico autonomo,4
-Atuacao principal,Docente ou instrutor,3
-Tempo de atuacao,Mais de 10 anos,5
-Tempo de atuacao,De 2 a 5 anos,2
-Falhas ja encontradas (multipla),Fuga de isolacao para a carcaca,6
-Falhas ja encontradas (multipla),Travamento mecanico,6
-Falhas ja encontradas (multipla),Enrolamento aberto,5
-Falhas ja encontradas (multipla),Curto entre espiras,4
-Falhas ja encontradas (multipla),Desgaste interno ou falta de oleo,4
-Falha mais frequente,Travamento mecanico,3
-Falha mais frequente,Curto entre espiras,2
-Falha mais frequente,Enrolamento aberto,1
-Falha mais frequente,Desgaste interno ou falta de oleo,1
-Onde costuma estar o defeito,"Nos dois, com frequencia parecida",4
-Onde costuma estar o defeito,Principalmente na placa inversora,3
-Ferramentas (multipla),Multimetro,7
-Ferramentas (multipla),Codigo de erro da placa,7
-Ferramentas (multipla),Alicate amperimetro,5
-Ferramentas (multipla),Megometro,4
-Ferramentas (multipla),Troca da peca por outra boa,3
-Ferramentas (multipla),Jiga com LEDs,2
-E dificil distinguir placa x compressor,Concorda (4 ou 5),5
-E dificil distinguir placa x compressor,Neutro (3),2
-Ja danificou placa ao energizar compressor com defeito,Sim,3
-Ja danificou placa ao energizar compressor com defeito,Nunca,4
-Valor tipico da placa inversora,R$ 1.000 a R$ 2.000,3
-Valor tipico da placa inversora,Acima de R$ 2.000,4
-Ja passou ou presenciou risco eletrico no teste,Sim,6
-Ja passou ou presenciou risco eletrico no teste,Nao,1
-Importancia dos 6 recursos propostos,Muito importante (todos os recursos),7
+questao,enunciado,n,resposta,contagem
+3,"De cada 10 atendimentos em equipamentos inverter, em quantos você precisa descobrir se o defeito está na placa ou no compressor?",20,5 ou 6,6
+3,"De cada 10 atendimentos em equipamentos inverter, em quantos você precisa descobrir se o defeito está na placa ou no compressor?",20,1 ou 2,5
+3,"De cada 10 atendimentos em equipamentos inverter, em quantos você precisa descobrir se o defeito está na placa ou no compressor?",20,3 ou 4,5
+3,"De cada 10 atendimentos em equipamentos inverter, em quantos você precisa descobrir se o defeito está na placa ou no compressor?",20,Nenhum,2
+3,"De cada 10 atendimentos em equipamentos inverter, em quantos você precisa descobrir se o defeito está na placa ou no compressor?",20,7 ou mais,2
+4,"Nesses casos, onde a causa estava com mais frequência?",20,Placa inverter (condensadora),8
+4,"Nesses casos, onde a causa estava com mais frequência?",20,Placa e compressor,4
+4,"Nesses casos, onde a causa estava com mais frequência?",20,"Outra causa (sensor, fiação, conector, carga de gás)",4
+4,"Nesses casos, onde a causa estava com mais frequência?",20,Placa da evaporadora,3
+4,"Nesses casos, onde a causa estava com mais frequência?",20,Compressor,1
+5,Quais falhas de compressor você já encontrou?,19,Fuga de isolação para a carcaça,10
+5,Quais falhas de compressor você já encontrou?,19,Travamento mecânico,9
+5,Quais falhas de compressor você já encontrou?,19,Enrolamento aberto,7
+5,Quais falhas de compressor você já encontrou?,19,Curto entre espiras,4
+5,Quais falhas de compressor você já encontrou?,19,"Compressor sem compressão (gira, mas não bombeia)",4
+5,Quais falhas de compressor você já encontrou?,19,DESGASTE,3
+5,Quais falhas de compressor você já encontrou?,19,Perda de rendimento ou rotação após superaquecimento,2
+5,Quais falhas de compressor você já encontrou?,19,Emenda nos cabos de alimentação,1
+5,Quais falhas de compressor você já encontrou?,19,Sensores abertos e Fuziveis,1
+6,Quais ferramentas você usa para decidir se o defeito está na placa ou no compressor?,18,Multímetro,16
+6,Quais ferramentas você usa para decidir se o defeito está na placa ou no compressor?,18,Alicate amperímetro,8
+6,Quais ferramentas você usa para decidir se o defeito está na placa ou no compressor?,18,Código de erro da placa,6
+6,Quais ferramentas você usa para decidir se o defeito está na placa ou no compressor?,18,Megômetro,6
+6,Quais ferramentas você usa para decidir se o defeito está na placa ou no compressor?,18,Troca da peça para testar,1
+6,Quais ferramentas você usa para decidir se o defeito está na placa ou no compressor?,18,Testador de compressor inverter,1
+7,"Quanto tempo você leva, em média, para concluir se o defeito está na placa ou no compressor?",18,30 min a 1h,11
+7,"Quanto tempo você leva, em média, para concluir se o defeito está na placa ou no compressor?",18,Mais de 2h,3
+7,"Quanto tempo você leva, em média, para concluir se o defeito está na placa ou no compressor?",18,Menos de 30 min,2
+7,"Quanto tempo você leva, em média, para concluir se o defeito está na placa ou no compressor?",18,1h a 2h,2
+8,"Quando há dúvida entre placa e compressor, como você costuma resolver?",18,Testo cada componente com instrumentos antes de decidir,16
+8,"Quando há dúvida entre placa e compressor, como você costuma resolver?",18,Dúvidas em placas encaminho para assistência.,1
+8,"Quando há dúvida entre placa e compressor, como você costuma resolver?",18,Recomendo trocar o equipamento inteiro,1
+9,É difícil distinguir se a falha está na placa ou no compressor,18,3,7
+9,É difícil distinguir se a falha está na placa ou no compressor,18,5,5
+9,É difícil distinguir se a falha está na placa ou no compressor,18,4,3
+9,É difícil distinguir se a falha está na placa ou no compressor,18,2,2
+9,É difícil distinguir se a falha está na placa ou no compressor,18,1,1
+10,"Quando o compressor não parte, é difícil saber se ele está travado ou com defeito elétrico",18,3,8
+10,"Quando o compressor não parte, é difícil saber se ele está travado ou com defeito elétrico",18,5,3
+10,"Quando o compressor não parte, é difícil saber se ele está travado ou com defeito elétrico",18,4,3
+10,"Quando o compressor não parte, é difícil saber se ele está travado ou com defeito elétrico",18,2,2
+10,"Quando o compressor não parte, é difícil saber se ele está travado ou com defeito elétrico",18,1,2
+11,As ferramentas atuais me dão informação suficiente para explicar o defeito ao cliente,18,3,10
+11,As ferramentas atuais me dão informação suficiente para explicar o defeito ao cliente,18,5,3
+11,As ferramentas atuais me dão informação suficiente para explicar o defeito ao cliente,18,1,2
+11,As ferramentas atuais me dão informação suficiente para explicar o defeito ao cliente,18,2,2
+11,As ferramentas atuais me dão informação suficiente para explicar o defeito ao cliente,18,4,1
+12,"Testar um compressor energizado, sem saber se ele está com defeito, me expõe a risco elétrico",18,5,11
+12,"Testar um compressor energizado, sem saber se ele está com defeito, me expõe a risco elétrico",18,3,4
+12,"Testar um compressor energizado, sem saber se ele está com defeito, me expõe a risco elétrico",18,1,2
+12,"Testar um compressor energizado, sem saber se ele está com defeito, me expõe a risco elétrico",18,4,1
+13,Onde você costuma fazer o diagnóstico entre placa e compressor?,18,"Na maioria das vezes no local, às vezes na oficina",9
+13,Onde você costuma fazer o diagnóstico entre placa e compressor?,18,Sempre no local do cliente,8
+13,Onde você costuma fazer o diagnóstico entre placa e compressor?,18,Na maioria das vezes na oficina ou bancada,1
+15,"De cada 10 vezes que você trocou a placa ou o compressor por suspeita, em quantas o defeito continuou depois da troca?",18,1 ou 2,8
+15,"De cada 10 vezes que você trocou a placa ou o compressor por suspeita, em quantas o defeito continuou depois da troca?",18,Nenhum,5
+15,"De cada 10 vezes que você trocou a placa ou o compressor por suspeita, em quantas o defeito continuou depois da troca?",18,"Nunca troquei por suspeita, só depois de testar",3
+15,"De cada 10 vezes que você trocou a placa ou o compressor por suspeita, em quantas o defeito continuou depois da troca?",18,3 ou 4,1
+15,"De cada 10 vezes que você trocou a placa ou o compressor por suspeita, em quantas o defeito continuou depois da troca?",18,5 ou mais,1
+16,"Você já energizou um compressor com defeito e perdeu a placa inversora, inclusive uma placa nova?",18,Nunca,11
+16,"Você já energizou um compressor com defeito e perdeu a placa inversora, inclusive uma placa nova?",18,1 ou 2 vezes,6
+16,"Você já energizou um compressor com defeito e perdeu a placa inversora, inclusive uma placa nova?",18,3 a 5 vezes,1
+17,Qual é o valor típico de uma placa inversora nos equipamentos que você atende?,18,R$ 1.000 a R$ 2.000,6
+17,Qual é o valor típico de uma placa inversora nos equipamentos que você atende?,18,Acima de R$ 2.000,5
+17,Qual é o valor típico de uma placa inversora nos equipamentos que você atende?,18,Não sei,3
+17,Qual é o valor típico de uma placa inversora nos equipamentos que você atende?,18,R$ 500 a R$ 1.000,3
+17,Qual é o valor típico de uma placa inversora nos equipamentos que você atende?,18,Até R$ 500,1
+18,"Quando um componente (placa ou compressor) está visivelmente queimado, o que você costuma fazer?",18,Troco esse componente e testo o outro antes de liberar o equipamento,15
+18,"Quando um componente (placa ou compressor) está visivelmente queimado, o que você costuma fazer?",18,Recomendo a troca do equipamento inteiro,2
+18,"Quando um componente (placa ou compressor) está visivelmente queimado, o que você costuma fazer?",18,Depende do valor e da idade do equipamento,1
+19,Os clientes aceitam pagar por um diagnóstico mais detalhado,18,3,6
+19,Os clientes aceitam pagar por um diagnóstico mais detalhado,18,4,4
+19,Os clientes aceitam pagar por um diagnóstico mais detalhado,18,5,3
+19,Os clientes aceitam pagar por um diagnóstico mais detalhado,18,1,3
+19,Os clientes aceitam pagar por um diagnóstico mais detalhado,18,2,2
+20,Mostrar ao cliente as medições feitas aumenta a confiança no meu serviço,18,5,12
+20,Mostrar ao cliente as medições feitas aumenta a confiança no meu serviço,18,1,3
+20,Mostrar ao cliente as medições feitas aumenta a confiança no meu serviço,18,3,2
+20,Mostrar ao cliente as medições feitas aumenta a confiança no meu serviço,18,4,1
+21,Um diagnóstico mais preciso me ajuda a fechar mais orçamentos,18,5,12
+21,Um diagnóstico mais preciso me ajuda a fechar mais orçamentos,18,3,4
+21,Um diagnóstico mais preciso me ajuda a fechar mais orçamentos,18,4,2
+22,"Na prática, compensa mais condenar o componente rápido do que investigar a fundo",18,1,12
+22,"Na prática, compensa mais condenar o componente rápido do que investigar a fundo",18,3,4
+22,"Na prática, compensa mais condenar o componente rápido do que investigar a fundo",18,2,1
+22,"Na prática, compensa mais condenar o componente rápido do que investigar a fundo",18,5,1
+23,Teste automático de isolação,20,5,14
+23,Teste automático de isolação,20,4,4
+23,Teste automático de isolação,20,2,1
+23,Teste automático de isolação,20,3,1
+24,Bloqueio automático da energização se houver falha,20,5,17
+24,Bloqueio automático da energização se houver falha,20,3,3
+25,Acionar o compressor sem a placa do cliente,20,5,8
+25,Acionar o compressor sem a placa do cliente,20,3,6
+25,Acionar o compressor sem a placa do cliente,20,1,5
+25,Acionar o compressor sem a placa do cliente,20,4,1
+26,Identificar compressor travado pela corrente de partida,20,5,13
+26,Identificar compressor travado pela corrente de partida,20,3,4
+26,Identificar compressor travado pela corrente de partida,20,4,2
+26,Identificar compressor travado pela corrente de partida,20,1,1
+27,Relatório com os valores medidos,20,5,16
+27,Relatório com os valores medidos,20,3,2
+27,Relatório com os valores medidos,20,4,1
+27,Relatório com os valores medidos,20,1,1
+28,Portabilidade,20,5,13
+28,Portabilidade,20,3,5
+28,Portabilidade,20,4,1
+28,Portabilidade,20,2,1
+29,"Na sua avaliação, um teste que indicasse com segurança se o defeito está na placa ou no compressor, feito durante o atendimento:",20,Agilizaria o diagnóstico,17
+29,"Na sua avaliação, um teste que indicasse com segurança se o defeito está na placa ou no compressor, feito durante o atendimento:",20,"Prolongaria o atendimento, mas valeria pela precisão",2
+29,"Na sua avaliação, um teste que indicasse com segurança se o defeito está na placa ou no compressor, feito durante o atendimento:",20,Não mudaria o tempo do atendimento,1
+30,Quanto você investiria em uma ferramenta assim?,20,Até R$ 1.000,9
+30,Quanto você investiria em uma ferramenta assim?,20,R$ 1.000 a R$ 3.000,8
+30,Quanto você investiria em uma ferramenta assim?,20,Acima de R$ R$ 5.000,1
+30,Quanto você investiria em uma ferramenta assim?,20,R$ 3.000 a R$ 5.000,1
+30,Quanto você investiria em uma ferramenta assim?,20,Não investiria ou não sei,1
+31,Há quanto tempo você trabalha com climatização ou refrigeração?,20,2 a 5 anos,7
+31,Há quanto tempo você trabalha com climatização ou refrigeração?,20,6 a 10 anos,6
+31,Há quanto tempo você trabalha com climatização ou refrigeração?,20,Mais de 10 anos,5
+31,Há quanto tempo você trabalha com climatização ou refrigeração?,20,Menos de 2 anos,2
+32,Como você atua hoje?,20,Empresa de manutenção,9
+32,Como você atua hoje?,20,Autônomo,6
+32,Como você atua hoje?,20,Docente na área de refrigeração,2
+32,Como você atua hoje?,20,Engenheiro Mecânico,1
+32,Como você atua hoje?,20,Fabricante ou distribuidor,1
+32,Como você atua hoje?,20,Supervisão de terceiros,1

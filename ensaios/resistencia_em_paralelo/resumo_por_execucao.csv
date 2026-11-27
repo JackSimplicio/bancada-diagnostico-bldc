@@ -1,0 +1,26 @@
+Rp_ohm;arquivo;R_UV_ohm;R_VW_ohm;R_WU_ohm;R_media_ohm;desequilibrio_pct;resultado_limite_5pct
+10;ensaio_bancada (0).csv;0.34263;0.35396;0.35457;0.35039;3.408;APROVADO
+10;ensaio_bancada (1).csv;0.34171;0.34973;0.35261;0.34802;3.131;APROVADO
+10;ensaio_bancada (2).csv;0.33314;0.34261;0.34563;0.34046;3.668;APROVADO
+10;ensaio_bancada (3).csv;0.33999;0.33692;0.3406;0.33917;1.086;APROVADO
+10;ensaio_bancada (4).csv;0.33786;0.33352;0.3499;0.34043;4.812;APROVADO
+7;ensaio_bancada (10).csv;0.41392;0.35248;0.33279;0.36639;22.144;REPROVADO
+7;ensaio_bancada (11).csv;0.33819;0.34892;0.32755;0.33822;6.318;REPROVADO
+7;ensaio_bancada (12).csv;0.34126;0.35111;0.32619;0.33952;7.34;REPROVADO
+7;ensaio_bancada (13).csv;0.34481;0.34698;0.32916;0.34032;5.236;REPROVADO
+7;ensaio_bancada (14).csv;0.336;0.33154;0.34988;0.33914;5.407;REPROVADO
+5;ensaio_bancada (5).csv;0.3117;0.3427;0.34533;0.33324;10.093;REPROVADO
+5;ensaio_bancada (6).csv;0.3127;0.34487;0.34676;0.33478;10.175;REPROVADO
+5;ensaio_bancada (7).csv;0.33562;0.34491;0.31904;0.33319;7.765;REPROVADO
+5;ensaio_bancada (8).csv;0.34124;0.34012;0.31954;0.33363;6.505;REPROVADO
+5;ensaio_bancada (9).csv;0.33674;0.32218;0.34395;0.33429;6.512;REPROVADO
+1;ensaio_bancada (15).csv;0.32549;0.33489;0.24999;0.30346;27.977;REPROVADO
+1;ensaio_bancada (16).csv;0.32529;0.33214;0.25262;0.30335;26.212;REPROVADO
+1;ensaio_bancada (17).csv;0.3204;0.32532;0.2525;0.29941;24.321;REPROVADO
+1;ensaio_bancada (18).csv;0.24462;0.32752;0.33031;0.30081;28.486;REPROVADO
+1;ensaio_bancada (19).csv;0.24852;0.33656;0.326;0.3037;28.989;REPROVADO
+curto (jumper);ensaio_bancada (20).csv;0.01036;0.25703;0.25776;0.17505;141.327;REPROVADO
+curto (jumper);ensaio_bancada (21).csv;0.00982;0.25756;0.25829;0.17523;141.8;REPROVADO
+curto (jumper);ensaio_bancada (22).csv;0.25298;0.00637;0.2566;0.17198;145.498;REPROVADO
+curto (jumper);ensaio_bancada (23).csv;0.25435;0.00631;0.25954;0.1734;146.035;REPROVADO
+curto (jumper);ensaio_bancada (24).csv;0.25013;0.25711;0.00927;0.17217;143.956;REPROVADO
